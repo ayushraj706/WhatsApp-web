@@ -1,7 +1,26 @@
-"dependencies": {
-  "@whiskeysockets/baileys": "^6.7.4",
-  "pino": "^9.0.0",
-  "qrcode": "^1.5.3",
-  "firebase-admin": "^12.0.0"
+{
+  "name": "whatsapp-web-os",
+  "version": "1.0.0",
+  "description": "BaseKey Business OS - WhatsApp Automation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@whiskeysockets/baileys": "^6.7.4",
+    "pino": "^9.0.0",
+    "qrcode": "^1.5.3",
+    "firebase-admin": "^12.0.0",
+    "lucide-react": "^0.363.0",
+    "sonner": "^1.4.41"
+  },
+  "engines": {
+    "node": "20.x"
+  }
 }
-
