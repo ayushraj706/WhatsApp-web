@@ -8,9 +8,9 @@ export default function Home() {
     // Check if admin is already authenticated
     const authStatus = localStorage.getItem('basekey_session');
     if (authStatus === 'authenticated') {
-      router.push('/dashboard');
+      router.push('/login.js');
     } else {
-      router.push('/dashboard');
+      router.push('/login.js');
     }
   }, []);
 
